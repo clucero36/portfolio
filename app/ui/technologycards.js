@@ -8,7 +8,7 @@ export default function TechnologyCards({technologies}) {
       {
         technologies.map((tech, index) => {
           return (
-            <div className="bg-gray-800 p-1 text-sm text-emerald-800" key={index}>{tech}</div>
+            <div className="bg-gray-800 py-1 px-1.5 text-sm text-emerald-500" key={index}>{tech}</div>
           )
         })
       }

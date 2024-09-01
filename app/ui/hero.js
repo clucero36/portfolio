@@ -6,7 +6,7 @@ export default function Example() {
       <div className="px-6 lg:px-0 lg:pt-4 content-center">
         <div className="mx-auto max-w-2xl">
           <div className="max-w-lg pr-8">
-            <p className="text-xl font-bold tracking-tight text-gray-300 text-6xl lg:pb-8 pb-4">
+            <p className="font-bold tracking-tight text-gray-300 text-3xl sm:text-6xl lg:pb-8 pb-4">
               Luis Carlos Lucero
             </p>
             <p className="mt-4 text-lg leading-8 text-gray-400">
@@ -18,7 +18,7 @@ export default function Example() {
         </div>
       </div>
       <div className="mt-20 sm:mt-24 md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen align-center">
-        <Image src='/Me.jpg' width={600} height={600} alt='luis carlos lucero headshot image'/>
+        <Image src='/Me.jpg' priority width={600} height={600} alt='luis carlos lucero headshot image'/>
       </div>
     </div>
   )
