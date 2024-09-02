@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Technologies() {
 
   return (
-    <div className="my-20">
+    <div className="my-20 px-4">
       <p className="text-center mb-20 text-4xl">Technologies</p>
       <div className='flex flex-wrap mx-auto justify-center gap-16'>
         <Image src='/nodejs02-svgrepo-com.svg'  width={72} height={72} alt='javascript icon'/>

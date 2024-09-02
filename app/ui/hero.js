@@ -2,10 +2,10 @@ import Image from "next/image"
 
 export default function Example() {
   return (
-    <div className="mx-auto pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-16 lg:py-40 justify-items-center">
-      <div className="px-6 lg:px-0 lg:pt-4 content-center">
+    <div className="mx-auto my-20 lg:grid lg:grid-cols-2 lg:gap-x-16 lg:py-10 justify-items-center">
+      <div className="px-6 lg:px-0 content-center">
         <div className="mx-auto max-w-2xl">
-          <div className="max-w-lg pr-8">
+          <div className="max-w-lg pr-0 lg:pr-8">
             <p className="font-bold tracking-tight text-gray-300 text-3xl sm:text-6xl lg:pb-8 pb-4">
               Luis Carlos Lucero
             </p>
@@ -17,8 +17,8 @@ export default function Example() {
           </div>
         </div>
       </div>
-      <div className="mt-20 sm:mt-24 md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen align-center">
-        <Image src='/Me.jpg' priority width={600} height={600} alt='luis carlos lucero headshot image'/>
+      <div className="mt-4 md:max-w-2xl lg:mx-0 lg:mt-0 px-6 lg:px-0 align-center">
+        <Image className="hidden sm:inline" src='/Me.jpg' priority width={500} height={600} alt='luis carlos lucero headshot image'/>
       </div>
     </div>
   )

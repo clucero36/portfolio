@@ -10,7 +10,7 @@ export default function Experience() {
       {
         experience.map((position) => {
           return (
-            <div className='flex flex-wrap mb-8 lg:justify-center mx-auto w-4/5' key={position.title}>
+            <div className='flex flex-wrap mb-8 lg:justify-center mx-auto w-4/5 lg:w-full' key={position.title}>
               <div className='w-full lg:w-1/3 text-gray-500'>
                 {position.duration}
               </div>

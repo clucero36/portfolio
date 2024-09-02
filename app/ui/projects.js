@@ -11,8 +11,8 @@ export default function Projects() {
       {
         projects.map((project) => {
           return (
-            <div className='flex flex-wrap mb-8 lg:justify-around mx-auto w-4/5' key={project.name}>
-              <div className='mb-2'>
+            <div className='flex flex-wrap mb-8 lg:justify-center mx-auto w-4/5 lg:w-full' key={project.name}>
+              <div className='mb-2 w-full lg:w-1/3'>
                 <Image src={project.src} width={200} height={150} alt={`${project.name} image`}/>
               </div>
               <div className='flex flex-col w-full lg:w-1/2 gap-2'>
