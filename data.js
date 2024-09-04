@@ -11,7 +11,7 @@ const projects = [
   },
   {
     name: 'Jet Boat Classifieds',
-    description: 'E-commerce Web App built for a families business startup. Users are displayed products that they can add to their cart & checkout and can checkout with false card information provided in github repo README.',
+    description: 'E-commerce Web App built for a families business startup. Users are displayed products that they can add to their cart & checkout. Users can complete a transaction with false card information provided in github repo README.',
     technologies: ['Next.js', 'Tailwind', 'Firebase', 'Stripe API'],
     src: '/jetboats.webp',
     link: 'https://jetboats.vercel.app/',
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     name: 'Appointment Scheduler',
-    description: 'Salon Appointment Schedule App. Users can select a service, a stylist, date & time of an appointment, are asked to input user information for appointment confirmation. ' +
+    description: 'Salon Appointment Schedule App. Users can select a service, a stylist, date & time of an appointment, & are asked to input user information for appointment confirmation. ' +
     'Unpaid version of API provides limited functionality.',
     technologies: ['Next.js', 'Tailwind', 'Firebase', 'Square API'],
     src: '/appointments.webp',
@@ -40,7 +40,7 @@ const experience = [
   {
     duration: 'Oct 2023 - June 2024',
     title: 'Lead Web Developer',
-    description: 'Lead web developer for a camping gear manufacturer responsible for developing and maintianing company Shopify Website. Worked within a cross functional team and ' +
+    description: 'Lead web developer for a camping gear manufacturer responsible for developing and maintaining company Shopify Website. Worked within a cross functional team and ' +
                   'collaborated with coworkers to establish requirements that I then translated into functional code to improve UI/UX.',
     technologies: ['Shopify', 'Liquid', 'HTML', 'CSS', 'JS'],
   },
