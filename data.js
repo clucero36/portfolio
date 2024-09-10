@@ -1,5 +1,13 @@
 
 const projects = [
+  {
+    name: 'Jet Boat Classifieds',
+    description: 'E-commerce Web App built for a business startup. Users are displayed products that they can add to their cart & checkout. Users can complete a transaction with false card information provided in github repo README.',
+    technologies: ['Next.js', 'Tailwind', 'Firebase', 'Stripe API'],
+    src: '/jetboats.webp',
+    link: 'https://jetboats.vercel.app/',
+    git: 'https://github.com/clucero36/jetboats'
+  },
   { 
     name: 'Spotify Clone',
     description: 'Spotify Clone Web Application. Authenticated users are treated to a replica application with user playlists, liked songs, & recently played songs. ' +
@@ -8,14 +16,6 @@ const projects = [
     src: '/spot1stPage.webp',
     link: 'https://spotifyditto.netlify.app',
     git: 'https://github.com/clucero36/spotify-clone.git',
-  },
-  {
-    name: 'Jet Boat Classifieds',
-    description: 'E-commerce Web App built for a families business startup. Users are displayed products that they can add to their cart & checkout. Users can complete a transaction with false card information provided in github repo README.',
-    technologies: ['Next.js', 'Tailwind', 'Firebase', 'Stripe API'],
-    src: '/jetboats.webp',
-    link: 'https://jetboats.vercel.app/',
-    git: 'https://github.com/clucero36/jetboats'
   },
   {
     name: 'Appointment Scheduler',
