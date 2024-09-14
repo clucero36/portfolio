@@ -2,8 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Gi3dStairs } from "react-icons/gi";
 
-
-
 export default function NavBar() {
 
   return (
