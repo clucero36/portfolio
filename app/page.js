@@ -1,4 +1,3 @@
-import Image from "next/image";
 import NavBar from "./ui/navbar";
 import Hero from "./ui/hero";
 import Technologies from "./ui/technologies";

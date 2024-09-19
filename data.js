@@ -29,7 +29,7 @@ const projects = [
   {
     name: 'Image Gallery',
     description: 'Media Gallery Web application. Users are treated to an array of images based on selection of nature settings.',
-    technologies: ['Next.js', 'Pexel API'],
+    technologies: ['Next.js', 'Pexel API', 'Vitest', 'GitHub Actions'],
     src: '/Gallery.webp',
     link: 'https://gallery-psi-sandy.vercel.app/',
     git: 'https://github.com/clucero36/gallery'
