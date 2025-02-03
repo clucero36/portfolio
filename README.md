@@ -1,1 +1,1 @@
-Portfolio Website build with Next.js & Tailwind
+Portfolio Website built with Next.js & Tailwind

@@ -10,10 +10,10 @@ export default function Example() {
               Luis Carlos Lucero
             </p>
             <p className="mt-4 text-lg leading-8 text-gray-400">
-              Software Engineer focusing in web technologies. Currently working with TypeScript, Next.js, Firebase, & Python. 
+              Software Developer focusing in web technologies. Currently working with TypeScript, Node.js, Google Cloud Platform, & React. 
             </p>
-            <p className="mt-4 text-lg leading-8 text-gray-500">I have extensive experience in e-commerce and CMS software and I’m actively seeking a role where quality software deliverables are at the forefront of business. I’m keen on taking part in software testing, code reviews, 
-              & receiving constructive feedback to produce exceptional enterprise level software.</p>
+            <p className="mt-4 text-lg leading-8 text-gray-500">I have experience developing software across various industries, including digital services, e-commerce, 
+              and real estate. I’m passionate about building clean, maintainable, and scalable solutions that enhance business insights and optimize processes for end users.</p>
           </div>
         </div>
       </div>

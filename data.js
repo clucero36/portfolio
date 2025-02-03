@@ -38,15 +38,22 @@ const projects = [
 
 const experience = [
   {
+    duration: 'Nov 2024 - Present',
+    title: 'Westland Real Estate - Full-Stack Software Developer',
+    description: 'Full-stack software developer in charge of crafting and enhancing the user interface of internal applications as well as ' +
+     'contributing to various back-end and database projects.',
+    technologies: ['TypeScript', 'Node.js', 'React', 'Google Cloud Platform']
+  },
+  {
     duration: 'Oct 2023 - June 2024',
-    title: 'Lead Web Developer',
+    title: 'Ayamaya Inc. - Lead Web Developer',
     description: 'Lead web developer for a camping gear manufacturer responsible for developing and maintaining company Shopify Website. Worked within a cross functional team and ' +
                   'collaborated with coworkers to establish requirements that I then translated into functional code to improve UI/UX.',
     technologies: ['Shopify', 'Liquid', 'HTML', 'CSS', 'JS'],
   },
   {
     duration: 'Feb 2023 - Aug 2023',
-    title: 'Web Progammer',
+    title: 'Trinet Internet Solutions - Web Progammer',
     description: 'Responsible for developing, maintaining, and updating client websites using content management systems like ' +
                   'Drupal, Shopify, & WordPress. Promptly gained proficiency with multiple content management systems and communicated with clients and team members to deliver ' +
                   'multiple concurrent projects within deadlines.',
